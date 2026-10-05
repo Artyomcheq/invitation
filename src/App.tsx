@@ -75,7 +75,7 @@ function App() {
                 <img
                   src="/aizada2.png"
                   alt="profile"
-                  className={`img-main img-main-absolute ${showSecondImage ? 'fade-in' : 'fade-out'}`}
+                  className={`img-main img-main-2 img-main-absolute ${showSecondImage ? 'fade-in' : 'fade-out'}`}
                 />
               </div>
             </div>

@@ -230,6 +230,13 @@ body {
   display: block;
 }
 
+.img-main-2 {
+  width: 210px !important;
+  height: 280px !important;
+  left: -19px !important;
+  top: -44px !important;
+}
+
 .img-main-absolute {
   position: absolute;
   top: 0;
