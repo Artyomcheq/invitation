@@ -52,7 +52,7 @@ function App() {
         recycle={true}
         gravity={0.05}
         colors={['#FFD700', '#FFA500', '#FF8C00', '#DAA520', '#F0E68C']}
-        style={{ zIndex: 0 }}
+        style={{ zIndex: 0, height: "100vh" }}
       />
       <div className="container">
         <div className={`card ${isLoaded ? 'card-unfolded' : 'card-folded'}`}>
@@ -92,11 +92,13 @@ function App() {
               <div className="info-block">
                 <div className="info-item">
                   <span className="info-label">ДАТА И ВРЕМЯ</span>
-                  <span className="info-value">6 октября, 19:00</span>
+                  <span className="info-value">29 октября, 18:00</span>
                 </div>
                 <div className="info-item">
                   <span className="info-label">МЕСТО ПРОВЕДЕНИЯ</span>
-                  <span className="info-value highlight">Театр оперы и балета</span>
+                  <span className="info-value highlight">Ресторан Вавилон (малый зал)</span>
+                  <span className="info-label">ТУРУСБЕКОВА/ЖИБЕК-ЖОЛУ</span>
+                  <a href='https://2gis.kg/bishkek/geo/70000001019362616/74.585290,42.883893' target='_blank' className='info-button'>Посмотреть на карте</a>
                 </div>
               </div>
             </div>
