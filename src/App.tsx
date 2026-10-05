@@ -12,7 +12,7 @@ const IMAGES_TO_PRELOAD = [
 ];
 
 function App() {
-  const [showSecondImage, setShowSecondImage] = useState(false);
+  const [showSecondImage, setShowSecondImage] = useState(true);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -69,20 +69,21 @@ function App() {
                 <img
                   src="/aizada.png"
                   alt="profile"
-                  className={`img-main ${showSecondImage ? 'fade-out' : 'fade-in'}`}
+                  className={`img-main img-main-2 img-main-absolute ${showSecondImage ? 'fade-in' : 'fade-out'}`}
                 />
-
                 <img
                   src="/aizada2.png"
                   alt="profile"
-                  className={`img-main img-main-2 img-main-absolute ${showSecondImage ? 'fade-in' : 'fade-out'}`}
+                  className={`img-main img-main-absolute ${showSecondImage ? 'fade-out' : 'fade-in'}`}
                 />
+
+
               </div>
             </div>
 
             <div className="card-content">
-              <span className="subtitle">ПРИГЛАШЕНИЕ НА ЮБИЛЕЙ</span>
-              <h1 className="title">Приглашаю тебя на мой день рождения</h1>
+              <span className="subtitle">ПРИГЛАШЕНИЕ</span>
+              <h1 className="title">Приглашаю вас на мой юбилей</h1>
               <p className="description">
                 Разделите со мной этот особенный вечер в атмосфере праздника и искусства!
               </p>
