@@ -93,7 +93,7 @@ function App() {
               <div className="info-block">
                 <div className="info-item">
                   <span className="info-label">ДАТА И ВРЕМЯ</span>
-                  <span className="info-value">29 октября, 18:00</span>
+                  <span className="info-value">28 октября, 17:00</span>
                 </div>
                 <div className="info-item">
                   <span className="info-label">МЕСТО ПРОВЕДЕНИЯ</span>
